@@ -34,7 +34,7 @@ class AnimatedStatus {
 	/* Code related to Animations */
 	load() {
 		this.kSpacing = "15px";
-		this.kMinTimeout = 2900;
+		this.kMinTimeout = 1;
 		this.kDefaultEditor = Editor_Type.RICH;
 
 		this.animation = this.getData("animation") || [];
